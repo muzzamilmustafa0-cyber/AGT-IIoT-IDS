@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# raw datasets (too large for GitHub; use the download scripts)
+data/*.csv
+!data/*_sample.csv
+*.zip
+.DS_Store
+Thumbs.db

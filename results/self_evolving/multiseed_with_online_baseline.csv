@@ -1,0 +1,6 @@
+Method,Mean_F1,Std,Seeds
+AGT static,0.8428,0.0465,4
+AGT selfevolve,0.8932,0.0175,4
+OnlineMLP,0.7993,0.0036,4
+XGB static,0.701,0.0349,4
+XGB retrained,0.9054,0.0029,4

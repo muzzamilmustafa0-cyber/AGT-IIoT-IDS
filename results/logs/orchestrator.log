@@ -1,0 +1,18 @@
+[orchestrator] waiting for Edge-IIoTset to finish...
+[orchestrator] Edge done. Running weakness-fix experiments.
+[1/4] landmark sensitivity
+  exit 0
+[2/4] runtime analysis
+  exit 0
+[3/4] per-class drift
+  exit 0
+[4/4] multi-seed drift (+online MLP baseline)
+   seed 42
+    exit 0
+   seed 1
+    exit 0
+   seed 7
+    exit 0
+   seed 2024
+    exit 0
+ALL_EXTRA_DONE

@@ -1,0 +1,5 @@
+Method,Mean_F1,Std,Min,Max,Seeds
+AGT static,0.8427,0.0465,0.7641,0.8782,4
+AGT self-evolving,0.8932,0.0174,0.8643,0.9106,4
+XGBoost static,0.701,0.0349,0.6518,0.7345,4
+XGBoost retrained,0.9054,0.0029,0.9015,0.9094,4

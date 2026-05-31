@@ -1,0 +1,9 @@
+=== DATASET Edge-IIoTset ===  device cuda
+records 80000 | classes 15 ['Backdoor', 'DDoS_HTTP', 'DDoS_ICMP', 'DDoS_TCP', 'DDoS_UDP', 'Fingerprinting', 'MITM', 'Normal', 'Password', 'Port_Scanning', 'Ransomware', 'SQL_injection', 'Uploading', 'Vulnerability_scanner', 'XSS'] | cat 3 num 44
+graph build time: 4.7s | avg degree 11.8
+  Logistic Regression  F1=0.9301 macroF1=0.6105
+  Random Forest        F1=0.9828 macroF1=0.9039
+  XGBoost              F1=0.9822 macroF1=0.8738
+  MLP (Deep NN)        F1=0.9608 macroF1=0.7831
+  GCN F1=0.9232
+  AGT F1=0.9447 macroF1=0.6989 | params 232,849 train 26.9s inf 60ms

@@ -1,0 +1,34 @@
+rows 120000 | past 66000 future 54000 | future attack rate 0.551
+cats 3 num 58
+Training initial AGT on past ...
+  AGT trained (26s)
+  block 1: AGTstatic 0.699 | AGT-SE 0.699 | XGBstatic 0.765 | XGBretrain 0.765
+  block 2: AGTstatic 0.666 | AGT-SE 0.896 | XGBstatic 0.753 | XGBretrain 0.988
+  block 3: AGTstatic 0.832 | AGT-SE 0.903 | XGBstatic 0.898 | XGBretrain 0.952
+  block 4: AGTstatic 0.985 | AGT-SE 0.956 | XGBstatic 0.580 | XGBretrain 0.595
+  block 5: AGTstatic 0.988 | AGT-SE 0.995 | XGBstatic 0.581 | XGBretrain 1.000
+  block 6: AGTstatic 0.997 | AGT-SE 0.998 | XGBstatic 0.575 | XGBretrain 1.000
+  block 7: AGTstatic 0.985 | AGT-SE 0.964 | XGBstatic 0.843 | XGBretrain 0.999
+  block 8: AGTstatic 0.873 | AGT-SE 0.874 | XGBstatic 0.875 | XGBretrain 0.953
+
+==== PREQUENTIAL F1 UNDER REAL TEMPORAL DRIFT ====
+ Block  attack_rate  AGT_static  AGT_selfevolve  XGB_static  XGB_retrained  AGT_SE_recall  XGB_re_recall  OnlineMLP
+     1        0.255      0.6994          0.6994      0.7649         0.7649         0.1195         0.2587     0.7406
+     2        0.340      0.6660          0.8958      0.7526         0.9881         0.9206         0.9651     0.9034
+     3        0.145      0.8324          0.9033      0.8976         0.9518         0.6148         0.6926     0.9297
+     4        0.753      0.9850          0.9561      0.5795         0.5947         0.9961         0.4429     0.1150
+     5        0.986      0.9882          0.9952      0.5808         1.0000         0.9961         1.0000     0.9856
+     6        0.992      0.9966          0.9983      0.5746         1.0000         0.9982         1.0000     0.9885
+     7        0.627      0.9852          0.9642      0.8427         0.9985         0.9423         0.9995     0.8526
+     8        0.316      0.8729          0.8741      0.8752         0.9531         0.6311         0.8586     0.8481
+
+Mean over future blocks:
+  AGT_static      : 0.8782
+  AGT_selfevolve  : 0.9108
+  OnlineMLP       : 0.7954
+  XGB_static      : 0.7335
+  XGB_retrained   : 0.9064
+
+Self-evolving recovery vs static AGT: +0.0326
+Self-evolving AGT vs retrained XGBoost: +0.0044
+saved adaptive_out/adaptive_drift.csv + .png

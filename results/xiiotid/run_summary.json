@@ -1,0 +1,33 @@
+{
+  "data_source": "REAL X-IIoTID (Kaggle: munaalhawawreh/xiiotid-iiot-intrusion-dataset)",
+  "records": 80000,
+  "sample_of_total": 820834,
+  "n_classes": 10,
+  "class_names": [
+    "C&C",
+    "Exfiltration",
+    "Exploitation",
+    "Lateral _movement",
+    "Normal",
+    "RDOS",
+    "Reconnaissance",
+    "Tampering",
+    "Weaponization",
+    "crypto-ransomware"
+  ],
+  "n_features": 61,
+  "categorical": 3,
+  "numeric": 58,
+  "avg_graph_degree": 13.86,
+  "agt_params": 234355,
+  "agt_train_sec": 38.1,
+  "agt_metrics": {
+    "Accuracy": 0.9659,
+    "Precision": 0.967,
+    "Recall": 0.9659,
+    "F1-Score": 0.9662,
+    "Macro-F1": 0.9245,
+    "MCC": 0.9499,
+    "ROC-AUC": 0.9973
+  }
+}

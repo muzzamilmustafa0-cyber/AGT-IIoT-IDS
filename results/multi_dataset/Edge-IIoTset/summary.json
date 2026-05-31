@@ -1,0 +1,38 @@
+{
+  "dataset": "Edge-IIoTset",
+  "records": 80000,
+  "classes": 15,
+  "class_names": [
+    "Backdoor",
+    "DDoS_HTTP",
+    "DDoS_ICMP",
+    "DDoS_TCP",
+    "DDoS_UDP",
+    "Fingerprinting",
+    "MITM",
+    "Normal",
+    "Password",
+    "Port_Scanning",
+    "Ransomware",
+    "SQL_injection",
+    "Uploading",
+    "Vulnerability_scanner",
+    "XSS"
+  ],
+  "features": 47,
+  "cat": 3,
+  "num": 44,
+  "graph_build_sec": 4.73,
+  "agt_train_sec": 26.92,
+  "agt_infer_ms": 60.1,
+  "agt_params": 232849,
+  "avg_degree": 11.82,
+  "agt": {
+    "Model": "AGT (proposed)",
+    "Accuracy": 0.9445,
+    "F1-Score": 0.9447,
+    "Macro-F1": 0.6989,
+    "MCC": 0.8797,
+    "ROC-AUC": 0.9987
+  }
+}

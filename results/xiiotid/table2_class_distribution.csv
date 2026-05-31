@@ -1,0 +1,11 @@
+Class,Count,Percentage
+Normal,41072,51.34
+RDOS,13768,17.21
+Reconnaissance,12435,15.54
+Weaponization,6555,8.19
+Lateral _movement,3079,3.85
+Exfiltration,2157,2.7
+Tampering,499,0.62
+C&C,279,0.35
+Exploitation,111,0.14
+crypto-ransomware,45,0.06

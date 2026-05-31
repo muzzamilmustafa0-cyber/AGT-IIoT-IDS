@@ -1,0 +1,25 @@
+=== graph-construction scalability ===
+{'N': 10000, 'edges': 143406, 'graph_build_s': 1.58}
+{'N': 20000, 'edges': 283768, 'graph_build_s': 0.46}
+{'N': 40000, 'edges': 558230, 'graph_build_s': 1.71}
+{'N': 80000, 'edges': 1107636, 'graph_build_s': 6.64}
+{'N': 160000, 'edges': 2202286, 'graph_build_s': 26.16}
+
+=== GRAPH SCALABILITY ===
+     N   edges  graph_build_s
+ 10000  143406           1.58
+ 20000  283768           0.46
+ 40000  558230           1.71
+ 80000 1107636           6.64
+160000 2202286          26.16
+
+=== RUNTIME SUMMARY ===
+{
+  "agt_train_s_80k": 31.24,
+  "agt_inference_ms_16k_nodes": 19.7,
+  "agt_peak_gpu_mem_MB": 5021.8,
+  "selfevolve_update_s": 0.192,
+  "xgboost_full_retrain_s": 11.414,
+  "adaptation_speedup_x": 59.4
+}
+saved runtime_out/

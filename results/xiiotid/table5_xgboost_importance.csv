@@ -1,0 +1,11 @@
+Feature,Importance
+Is_SYN_ACK,0.27405706
+Std_kbmemused,0.11137772
+std_num_cswch/s,0.103127554
+is_privileged,0.06817281
+read_write_physical.process,0.053053565
+Des_bytes_ratio,0.03725081
+Succesful_login,0.035577662
+Duration,0.034555186
+Conn_state,0.029832758
+Login_attempt,0.022392161

@@ -1,0 +1,8 @@
+{
+  "agt_train_s_80k": 31.24,
+  "agt_inference_ms_16k_nodes": 19.7,
+  "agt_peak_gpu_mem_MB": 5021.8,
+  "selfevolve_update_s": 0.192,
+  "xgboost_full_retrain_s": 11.414,
+  "adaptation_speedup_x": 59.4
+}

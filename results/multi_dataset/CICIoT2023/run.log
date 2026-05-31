@@ -1,0 +1,9 @@
+=== DATASET CICIoT2023 ===  device cuda
+records 80000 | classes 8 ['Benign', 'BruteForce', 'DDoS', 'DoS', 'Mirai', 'Recon', 'Spoofing', 'Web'] | cat 0 num 46
+graph build time: 5.0s | avg degree 12.6
+  Logistic Regression  F1=0.7887 macroF1=0.5726
+  Random Forest        F1=0.9940 macroF1=0.6962
+  XGBoost              F1=0.9934 macroF1=0.6853
+  MLP (Deep NN)        F1=0.9795 macroF1=0.7235
+  GCN F1=0.7100
+  AGT F1=0.7240 macroF1=0.5868 | params 231,012 train 27.8s inf 47ms

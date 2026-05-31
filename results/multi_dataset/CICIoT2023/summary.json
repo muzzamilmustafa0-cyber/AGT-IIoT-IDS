@@ -1,0 +1,31 @@
+{
+  "dataset": "CICIoT2023",
+  "records": 80000,
+  "classes": 8,
+  "class_names": [
+    "Benign",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web"
+  ],
+  "features": 46,
+  "cat": 0,
+  "num": 46,
+  "graph_build_sec": 5.02,
+  "agt_train_sec": 27.83,
+  "agt_infer_ms": 47.1,
+  "agt_params": 231012,
+  "avg_degree": 12.64,
+  "agt": {
+    "Model": "AGT (proposed)",
+    "Accuracy": 0.6927,
+    "F1-Score": 0.724,
+    "Macro-F1": 0.5868,
+    "MCC": 0.5338,
+    "ROC-AUC": 0.9097
+  }
+}

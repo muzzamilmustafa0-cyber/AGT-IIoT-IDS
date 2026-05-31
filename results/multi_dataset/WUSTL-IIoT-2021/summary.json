@@ -1,0 +1,28 @@
+{
+  "dataset": "WUSTL-IIoT-2021",
+  "records": 80000,
+  "classes": 5,
+  "class_names": [
+    "Backdoor",
+    "CommInj",
+    "DoS",
+    "Reconn",
+    "normal"
+  ],
+  "features": 43,
+  "cat": 0,
+  "num": 43,
+  "graph_build_sec": 7.44,
+  "agt_train_sec": 26.54,
+  "agt_infer_ms": 48.0,
+  "agt_params": 230235,
+  "avg_degree": 12.17,
+  "agt": {
+    "Model": "AGT (proposed)",
+    "Accuracy": 0.9969,
+    "F1-Score": 0.9973,
+    "Macro-F1": 0.7845,
+    "MCC": 0.9777,
+    "ROC-AUC": 1.0
+  }
+}
