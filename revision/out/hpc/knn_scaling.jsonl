@@ -1,0 +1,31 @@
+{"N": 10000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 0.05405735969543457, "recall": 1.0}
+{"N": 10000, "method": "CPU exact (FAISS flat)", "threads": 1, "seconds": 0.1461789608001709, "recall": 1.0}
+{"N": 10000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 0.1445627212524414, "recall": 1.0}
+{"N": 10000, "method": "CPU exact (scikit-learn)", "threads": 16, "seconds": 2.2860519886016846, "recall": 1.0}
+{"N": 10000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 0.08651494979858398, "recall": 0.99692}
+{"N": 20000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 0.16656017303466797, "recall": 1.0}
+{"N": 20000, "method": "CPU exact (FAISS flat)", "threads": 1, "seconds": 0.5311844348907471, "recall": 1.0}
+{"N": 20000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 0.6149327754974365, "recall": 1.0}
+{"N": 20000, "method": "CPU exact (scikit-learn)", "threads": 16, "seconds": 0.45506930351257324, "recall": 1.0}
+{"N": 20000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 0.16004061698913574, "recall": 0.9957}
+{"N": 40000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 0.4806327819824219, "recall": 1.0}
+{"N": 40000, "method": "CPU exact (FAISS flat)", "threads": 1, "seconds": 2.0309901237487793, "recall": 1.0}
+{"N": 40000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 2.324258327484131, "recall": 1.0}
+{"N": 40000, "method": "CPU exact (scikit-learn)", "threads": 16, "seconds": 1.6304049491882324, "recall": 1.0}
+{"N": 40000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 0.3336160182952881, "recall": 0.99326}
+{"N": 80000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 1.8910799026489258, "recall": 1.0}
+{"N": 80000, "method": "CPU exact (FAISS flat)", "threads": 1, "seconds": 8.164258003234863, "recall": 1.0}
+{"N": 80000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 9.726311922073364, "recall": 1.0}
+{"N": 80000, "method": "CPU exact (scikit-learn)", "threads": 16, "seconds": 6.96442985534668, "recall": 1.0}
+{"N": 80000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 0.7772538661956787, "recall": 0.9922200000000001}
+{"N": 160000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 6.794944524765015, "recall": 1.0}
+{"N": 160000, "method": "CPU exact (FAISS flat)", "threads": 1, "seconds": 32.36428952217102, "recall": 1.0}
+{"N": 160000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 40.73171925544739, "recall": 1.0}
+{"N": 160000, "method": "CPU exact (scikit-learn)", "threads": 16, "seconds": 27.251566886901855, "recall": 1.0}
+{"N": 160000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 2.2921218872070312, "recall": 0.9902200000000001}
+{"N": 320000, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 25.70161724090576, "recall": 1.0}
+{"N": 320000, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 165.54882335662842, "recall": 1.0}
+{"N": 320000, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 5.160361051559448, "recall": 0.9879599999999998}
+{"N": 656667, "method": "GPU exact (chunked GEMM)", "threads": 0, "seconds": 108.71192622184753, "recall": 1.0}
+{"N": 656667, "method": "CPU exact (FAISS flat)", "threads": 16, "seconds": 688.4914948940277, "recall": 1.0}
+{"N": 656667, "method": "CPU approximate (FAISS HNSW)", "threads": 16, "seconds": 10.079893112182617, "recall": 0.9817474566128067}

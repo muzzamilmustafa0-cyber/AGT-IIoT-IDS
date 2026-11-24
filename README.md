@@ -8,6 +8,13 @@ Graph Transformer with Self-Evolving Adaptation for Drift-Resilient Intrusion
 Detection in Cyber-Physical IoT Networks."* All results are on **real** public
 datasets and are fully reproducible from this repository.
 
+> **Revised version.** The folder [`revision/`](revision/) contains the code, per-run outputs and a
+> script-to-result map for the revised manuscript ("An Attention-Augmented Graph Transformer with
+> Rehearsal-Based Incremental Adaptation for Intrusion Detection under Temporal Drift in
+> Cyber-Physical IoT Networks"). The revision uses training-only preprocessing, an inductive graph,
+> validation-based model selection, repeated runs and a ten-class prequential drift study; its results
+> supersede the results and claims described below, which belong to the initial submission.
+
 ## Method
 Traffic instances are nodes of a k-nearest-neighbor similarity graph. Categorical
 attributes use learned **entity embeddings**; a residual encoder couples **local

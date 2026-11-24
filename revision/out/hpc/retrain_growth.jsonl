@@ -1,0 +1,15 @@
+{"model": "XGBoost full refit", "device": "cpu", "N": 50000, "seconds": 20.328613758087158, "check_macroF1": 0.9693613380929829}
+{"model": "XGBoost full refit", "device": "cuda", "N": 50000, "seconds": 13.986099481582642, "check_macroF1": 0.9730400300444846}
+{"model": "XGBoost full refit", "device": "cpu", "N": 100000, "seconds": 36.53615736961365, "check_macroF1": 0.9906681414004972}
+{"model": "XGBoost full refit", "device": "cuda", "N": 100000, "seconds": 17.659679412841797, "check_macroF1": 0.9906892550669936}
+{"model": "XGBoost full refit", "device": "cpu", "N": 200000, "seconds": 66.74580430984497, "check_macroF1": 0.987893431069981}
+{"model": "XGBoost full refit", "device": "cuda", "N": 200000, "seconds": 25.89323592185974, "check_macroF1": 0.9880459042486083}
+{"model": "XGBoost full refit", "device": "cpu", "N": 400000, "seconds": 129.44788432121277, "check_macroF1": 0.9910367420340537}
+{"model": "XGBoost full refit", "device": "cuda", "N": 400000, "seconds": 43.10225772857666, "check_macroF1": 0.9914073793716097}
+{"model": "XGBoost full refit", "device": "cpu", "N": 656667, "seconds": 202.3687252998352, "check_macroF1": 0.9958405468096443}
+{"model": "XGBoost full refit", "device": "cuda", "N": 656667, "seconds": 61.215930700302124, "check_macroF1": 0.9959251135181025}
+{"model": "AGT rehearsal update", "device": "cuda", "N": 4550, "graph_s": 0.2298276424407959, "steps_s": 0.47712206840515137, "seconds": 0.7069497108459473}
+{"model": "AGT rehearsal update", "device": "cuda", "N": 4550, "graph_s": 0.01099848747253418, "steps_s": 0.24570703506469727, "seconds": 0.2577054500579834}
+{"model": "AGT rehearsal update", "device": "cuda", "N": 4550, "graph_s": 0.008996725082397461, "steps_s": 0.24211931228637695, "seconds": 0.2511160373687744}
+{"model": "AGT rehearsal update", "device": "cuda", "N": 4550, "graph_s": 0.009022235870361328, "steps_s": 0.24488162994384766, "seconds": 0.253903865814209}
+{"model": "AGT rehearsal update", "device": "cuda", "N": 4550, "graph_s": 0.009980201721191406, "steps_s": 0.24451684951782227, "seconds": 0.25449705123901367}

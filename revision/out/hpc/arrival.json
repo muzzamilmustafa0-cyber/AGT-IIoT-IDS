@@ -1,0 +1,9 @@
+{
+  "records": 820383,
+  "active_seconds": 218988,
+  "mean_per_active_s": 3.746246369664091,
+  "p99_per_s": 26.0,
+  "max_per_s": 5631,
+  "max_per_min": 16577,
+  "max_per_10min": 78335
+}

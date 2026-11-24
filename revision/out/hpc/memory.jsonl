@@ -1,0 +1,3 @@
+{"phase": "k-NN graph construction (56k nodes)", "peak_alloc_MB": 4031.117312, "reserved_MB": 4045.406208}
+{"phase": "training step (full batch, 56k nodes)", "peak_alloc_MB": 3170.214912, "static_MB": 34.002432, "reserved_MB": 3405.774848, "params": 333939}
+{"phase": "inference (56k reference + 16k queries)", "peak_alloc_MB": 1761.939456, "reserved_MB": 2181.03808}

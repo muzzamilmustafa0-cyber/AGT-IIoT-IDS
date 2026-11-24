@@ -1,0 +1,495 @@
+{
+  "base_agt": 0.8910172502330547,
+  "base_xgb": 0.9787756855312699,
+  "rows": [
+    {
+      "feature": "Scr_port",
+      "agt_drop": 0.018703040040008927,
+      "agt_drop_sd": 0.006484740202872455,
+      "agt_drop_fixedgraph": 0.0059146711088210084,
+      "xgb_perm_drop": -0.000615381172653399,
+      "xgb_gain_share": 0.0006181098486736921
+    },
+    {
+      "feature": "Des_port",
+      "agt_drop": 0.011204537621804253,
+      "agt_drop_sd": 0.002861945434281187,
+      "agt_drop_fixedgraph": 0.012556567430381102,
+      "xgb_perm_drop": 0.08500015590160281,
+      "xgb_gain_share": 0.00636153995179111
+    },
+    {
+      "feature": "Duration",
+      "agt_drop": 0.04426732955893079,
+      "agt_drop_sd": 0.0024141982730278566,
+      "agt_drop_fixedgraph": 0.009525892796819332,
+      "xgb_perm_drop": 0.04126585151494692,
+      "xgb_gain_share": 0.004275126605532757
+    },
+    {
+      "feature": "Scr_bytes",
+      "agt_drop": 0.000927003619568989,
+      "agt_drop_sd": 0.0009040050823959989,
+      "agt_drop_fixedgraph": 0.0003256535189516037,
+      "xgb_perm_drop": 0.05301574469752771,
+      "xgb_gain_share": 0.004461447318244045
+    },
+    {
+      "feature": "Des_bytes",
+      "agt_drop": -0.0043541022418559505,
+      "agt_drop_sd": 0.0004443936969780757,
+      "agt_drop_fixedgraph": -0.0050058802402532425,
+      "xgb_perm_drop": 0.0027431956080781195,
+      "xgb_gain_share": 0.0066755968937205565
+    },
+    {
+      "feature": "Conn_state",
+      "agt_drop": 0.046359726145212665,
+      "agt_drop_sd": 0.004380521711046313,
+      "agt_drop_fixedgraph": 0.00821082120384431,
+      "xgb_perm_drop": 0.04198770874789574,
+      "xgb_gain_share": 0.015182024025746978
+    },
+    {
+      "feature": "missed_bytes",
+      "agt_drop": 8.059169057106352e-06,
+      "agt_drop_sd": 1.139738618201739e-05,
+      "agt_drop_fixedgraph": 8.059169057106352e-06,
+      "xgb_perm_drop": 0.0,
+      "xgb_gain_share": 0.0
+    },
+    {
+      "feature": "is_syn_only",
+      "agt_drop": 0.0029477507179103877,
+      "agt_drop_sd": 0.0036137016684761733,
+      "agt_drop_fixedgraph": 0.002803626008700655,
+      "xgb_perm_drop": -0.001833217103519395,
+      "xgb_gain_share": 0.01967203479293278
+    },
+    {
+      "feature": "Is_SYN_ACK",
+      "agt_drop": 0.033697356713784044,
+      "agt_drop_sd": 0.006114433707960383,
+      "agt_drop_fixedgraph": 0.03358880330050181,
+      "xgb_perm_drop": -8.950287013864688e-06,
+      "xgb_gain_share": 0.0037277611903192
+    },
+    {
+      "feature": "is_pure_ack",
+      "agt_drop": 0.033389565253228747,
+      "agt_drop_sd": 0.0010777448302328307,
+      "agt_drop_fixedgraph": 0.032877678157792446,
+      "xgb_perm_drop": -0.0001243795271279602,
+      "xgb_gain_share": 0.007903581022279605
+    },
+    {
+      "feature": "is_with_payload",
+      "agt_drop": 0.07216510660048396,
+      "agt_drop_sd": 0.0029375210100698337,
+      "agt_drop_fixedgraph": 0.06529267185337757,
+      "xgb_perm_drop": 0.0028091754377396563,
+      "xgb_gain_share": 0.09252571181595305
+    },
+    {
+      "feature": "FIN or RST",
+      "agt_drop": 0.006809080591940149,
+      "agt_drop_sd": 0.0033139174176971273,
+      "agt_drop_fixedgraph": 0.007042454251886321,
+      "xgb_perm_drop": -0.0005582562461186787,
+      "xgb_gain_share": 0.0023520380145220406
+    },
+    {
+      "feature": "Bad_checksum",
+      "agt_drop": 0.0,
+      "agt_drop_sd": 0.0,
+      "agt_drop_fixedgraph": 0.0,
+      "xgb_perm_drop": 0.0,
+      "xgb_gain_share": 0.0
+    },
+    {
+      "feature": "is_SYN_with_RST",
+      "agt_drop": 0.0,
+      "agt_drop_sd": 0.0,
+      "agt_drop_fixedgraph": 0.0,
+      "xgb_perm_drop": 0.0,
+      "xgb_gain_share": 0.0
+    },
+    {
+      "feature": "Scr_pkts",
+      "agt_drop": 0.031094477467669728,
+      "agt_drop_sd": 0.0016967781603545494,
+      "agt_drop_fixedgraph": 0.029728006574494075,
+      "xgb_perm_drop": 0.0021183919324050025,
+      "xgb_gain_share": 0.0015232571479298822
+    },
+    {
+      "feature": "Scr_ip_bytes",
+      "agt_drop": 0.01600108002407911,
+      "agt_drop_sd": 0.0007007620390032527,
+      "agt_drop_fixedgraph": 0.012528839258828047,
+      "xgb_perm_drop": 0.008355419617391946,
+      "xgb_gain_share": 0.003029508585726076
+    },
+    {
+      "feature": "Des_pkts",
+      "agt_drop": 0.002106214345813151,
+      "agt_drop_sd": 0.0013239497357876262,
+      "agt_drop_fixedgraph": 0.00022561176148964504,
+      "xgb_perm_drop": -5.910616338529925e-05,
+      "xgb_gain_share": 0.0018132255267829605
+    },
+    {
+      "feature": "Des_ip_bytes",
+      "agt_drop": 0.009066304486438711,
+      "agt_drop_sd": 0.0010099879552862216,
+      "agt_drop_fixedgraph": 0.012664615936074264,
+      "xgb_perm_drop": 0.0010156986644349608,
+      "xgb_gain_share": 0.014713276258960219
+    },
+    {
+      "feature": "total_bytes",
+      "agt_drop": 0.007982781663485686,
+      "agt_drop_sd": 0.00173405463439146,
+      "agt_drop_fixedgraph": 0.007463307642582777,
+      "xgb_perm_drop": 0.00018083540768990916,
+      "xgb_gain_share": 0.001755826090270486
+    },
+    {
+      "feature": "total_packet",
+      "agt_drop": 0.018821872221747287,
+      "agt_drop_sd": 0.001921985065027148,
+      "agt_drop_fixedgraph": 0.018910112981623595,
+      "xgb_perm_drop": 0.0013443150814118991,
+      "xgb_gain_share": 0.0011515596282428084
+    },
+    {
+      "feature": "paket_rate",
+      "agt_drop": 0.007551191850085681,
+      "agt_drop_sd": 0.001144779973828361,
+      "agt_drop_fixedgraph": 0.008045624282129035,
+      "xgb_perm_drop": 3.0567809649384436e-05,
+      "xgb_gain_share": 0.0011278990733687504
+    },
+    {
+      "feature": "byte_rate",
+      "agt_drop": 0.02308226880368462,
+      "agt_drop_sd": 0.004265903701635894,
+      "agt_drop_fixedgraph": 0.023350183347271642,
+      "xgb_perm_drop": 2.8514991569787245e-05,
+      "xgb_gain_share": 0.0015830958927107197
+    },
+    {
+      "feature": "Scr_packts_ratio",
+      "agt_drop": 0.01484390141356203,
+      "agt_drop_sd": 0.0014148009153011245,
+      "agt_drop_fixedgraph": 0.013646051750779153,
+      "xgb_perm_drop": 0.00014449443957816518,
+      "xgb_gain_share": 0.001429687224957956
+    },
+    {
+      "feature": "Des_pkts_ratio",
+      "agt_drop": 0.008525754177606778,
+      "agt_drop_sd": 0.0031344962745176877,
+      "agt_drop_fixedgraph": 0.007192351950111216,
+      "xgb_perm_drop": 4.636339299020816e-05,
+      "xgb_gain_share": 0.003593857767920326
+    },
+    {
+      "feature": "Scr_bytes_ratio",
+      "agt_drop": 0.017899220628559382,
+      "agt_drop_sd": 0.001144183807603478,
+      "agt_drop_fixedgraph": 0.01902655201505347,
+      "xgb_perm_drop": 0.003967071987722466,
+      "xgb_gain_share": 0.0017598715673067776
+    },
+    {
+      "feature": "Des_bytes_ratio",
+      "agt_drop": 0.015714426815793197,
+      "agt_drop_sd": 0.0020631957042216145,
+      "agt_drop_fixedgraph": 0.015539915376043342,
+      "xgb_perm_drop": 1.738847364141094e-05,
+      "xgb_gain_share": 0.006934698843037444
+    },
+    {
+      "feature": "Avg_user_time",
+      "agt_drop": 0.008017590762004256,
+      "agt_drop_sd": 0.004619875845225538,
+      "agt_drop_fixedgraph": 0.008146192919929796,
+      "xgb_perm_drop": 0.00042061119487516824,
+      "xgb_gain_share": 0.0011334142747801428
+    },
+    {
+      "feature": "Std_user_time",
+      "agt_drop": 0.045791652523225514,
+      "agt_drop_sd": 0.0008009864013131359,
+      "agt_drop_fixedgraph": 0.032972767463774755,
+      "xgb_perm_drop": 0.0005283477721162259,
+      "xgb_gain_share": 0.0019068033866400129
+    },
+    {
+      "feature": "Avg_nice_time",
+      "agt_drop": 0.008247179845926897,
+      "agt_drop_sd": 0.0006987588616805403,
+      "agt_drop_fixedgraph": 0.005617840613955205,
+      "xgb_perm_drop": 0.002250739989085796,
+      "xgb_gain_share": 0.019251674946630194
+    },
+    {
+      "feature": "Std_nice_time",
+      "agt_drop": -0.0003069435119380885,
+      "agt_drop_sd": 0.0015368017055041971,
+      "agt_drop_fixedgraph": -0.0013663765003298172,
+      "xgb_perm_drop": -0.0006053469678100795,
+      "xgb_gain_share": 0.00019232496630912157
+    },
+    {
+      "feature": "Avg_system_time",
+      "agt_drop": 0.06605275863097078,
+      "agt_drop_sd": 0.0027205037619820434,
+      "agt_drop_fixedgraph": 0.06376980292106067,
+      "xgb_perm_drop": 0.00231005195772771,
+      "xgb_gain_share": 0.0009155733899798575
+    },
+    {
+      "feature": "Std_system_time",
+      "agt_drop": 0.0059546964248395895,
+      "agt_drop_sd": 0.0004900222090318064,
+      "agt_drop_fixedgraph": 0.007563605190863225,
+      "xgb_perm_drop": 0.0024200219652613284,
+      "xgb_gain_share": 0.0001762718720587664
+    },
+    {
+      "feature": "Avg_iowait_time",
+      "agt_drop": 0.011488281240634243,
+      "agt_drop_sd": 0.0022015058991973198,
+      "agt_drop_fixedgraph": 0.009861031307479062,
+      "xgb_perm_drop": -0.0006668651229188768,
+      "xgb_gain_share": 0.00016633190095920528
+    },
+    {
+      "feature": "Std_iowait_time",
+      "agt_drop": 0.014820227719110549,
+      "agt_drop_sd": 0.0043106552257178386,
+      "agt_drop_fixedgraph": 0.006092410308298139,
+      "xgb_perm_drop": 3.5171037356507284e-05,
+      "xgb_gain_share": 0.00012990669009274047
+    },
+    {
+      "feature": "Avg_ideal_time",
+      "agt_drop": 0.031581331306212955,
+      "agt_drop_sd": 0.001743788404391448,
+      "agt_drop_fixedgraph": 0.027114717350916712,
+      "xgb_perm_drop": -0.00012267749773879158,
+      "xgb_gain_share": 0.0002492989916147865
+    },
+    {
+      "feature": "Std_ideal_time",
+      "agt_drop": 0.020144776653675756,
+      "agt_drop_sd": 0.0015267350758735219,
+      "agt_drop_fixedgraph": 0.01923461644457462,
+      "xgb_perm_drop": -0.0007044495071566459,
+      "xgb_gain_share": 0.0001577916228953975
+    },
+    {
+      "feature": "Avg_tps",
+      "agt_drop": 0.00890575561424145,
+      "agt_drop_sd": 0.0020777107236636142,
+      "agt_drop_fixedgraph": 0.0067361604153804615,
+      "xgb_perm_drop": 4.360420755785318e-05,
+      "xgb_gain_share": 0.0002469830844022983
+    },
+    {
+      "feature": "Std_tps",
+      "agt_drop": 0.0030099722155467377,
+      "agt_drop_sd": 0.002426297254589462,
+      "agt_drop_fixedgraph": 8.631009098059028e-05,
+      "xgb_perm_drop": -0.0006668671080566716,
+      "xgb_gain_share": 0.0004152869803383474
+    },
+    {
+      "feature": "Avg_rtps",
+      "agt_drop": 0.011094946904156392,
+      "agt_drop_sd": 0.0023671542421016224,
+      "agt_drop_fixedgraph": 0.008030081980140472,
+      "xgb_perm_drop": -6.058458996375619e-05,
+      "xgb_gain_share": 0.0001404117995109714
+    },
+    {
+      "feature": "Std_rtps",
+      "agt_drop": 0.001000520493550594,
+      "agt_drop_sd": 0.0032943259972123638,
+      "agt_drop_fixedgraph": -0.004241499131683961,
+      "xgb_perm_drop": -0.0005461209028209124,
+      "xgb_gain_share": 0.00026908585049202643
+    },
+    {
+      "feature": "Avg_wtps",
+      "agt_drop": 0.020874861472277167,
+      "agt_drop_sd": 0.0017161558933244756,
+      "agt_drop_fixedgraph": 0.022316205725818716,
+      "xgb_perm_drop": 0.00011404053176200524,
+      "xgb_gain_share": 0.00018614276016003397
+    },
+    {
+      "feature": "Std_wtps",
+      "agt_drop": 0.03990754593945981,
+      "agt_drop_sd": 0.001722744609911989,
+      "agt_drop_fixedgraph": 0.03866413932587039,
+      "xgb_perm_drop": -0.0012835460824962934,
+      "xgb_gain_share": 0.00020540871718129173
+    },
+    {
+      "feature": "Avg_ldavg_1",
+      "agt_drop": 1.4407298512542077e-05,
+      "agt_drop_sd": 0.0009095364116393784,
+      "agt_drop_fixedgraph": -0.004693161914309425,
+      "xgb_perm_drop": -0.0008660015498396975,
+      "xgb_gain_share": 0.0003411886876774243
+    },
+    {
+      "feature": "Std_ldavg_1",
+      "agt_drop": 0.008017628527049792,
+      "agt_drop_sd": 0.0014758579289549222,
+      "agt_drop_fixedgraph": 0.002541800119546004,
+      "xgb_perm_drop": -0.0010726866058900313,
+      "xgb_gain_share": 0.00025586959448986634
+    },
+    {
+      "feature": "Avg_kbmemused",
+      "agt_drop": 0.024808561031961236,
+      "agt_drop_sd": 0.0010522430377426205,
+      "agt_drop_fixedgraph": 0.023693307509091415,
+      "xgb_perm_drop": 0.010297447449960676,
+      "xgb_gain_share": 0.0029449728222488416
+    },
+    {
+      "feature": "Std_kbmemused",
+      "agt_drop": 0.0023781474005521628,
+      "agt_drop_sd": 0.001637553589578481,
+      "agt_drop_fixedgraph": -0.004123235528053826,
+      "xgb_perm_drop": 0.0032876848641293366,
+      "xgb_gain_share": 0.0006005669398077611
+    },
+    {
+      "feature": "Avg_num_Proc/s",
+      "agt_drop": 0.018840445784852815,
+      "agt_drop_sd": 0.003251744786934821,
+      "agt_drop_fixedgraph": 0.020066249200575387,
+      "xgb_perm_drop": 0.002010744691305392,
+      "xgb_gain_share": 0.005756644258179397
+    },
+    {
+      "feature": "Std_num_proc/s",
+      "agt_drop": 0.003777909979812607,
+      "agt_drop_sd": 0.00068700925640355,
+      "agt_drop_fixedgraph": -0.00025733443503587566,
+      "xgb_perm_drop": 0.0010712186376945858,
+      "xgb_gain_share": 0.00046673775062859514
+    },
+    {
+      "feature": "Avg_num_cswch/s",
+      "agt_drop": 0.003774861429548785,
+      "agt_drop_sd": 0.002088035827704812,
+      "agt_drop_fixedgraph": 0.0023333619760072346,
+      "xgb_perm_drop": 0.009608039624268186,
+      "xgb_gain_share": 0.04862334903953576
+    },
+    {
+      "feature": "std_num_cswch/s",
+      "agt_drop": 0.007673525175107591,
+      "agt_drop_sd": 0.0011403874179120718,
+      "agt_drop_fixedgraph": 0.006641400925223584,
+      "xgb_perm_drop": -0.00018787708568768213,
+      "xgb_gain_share": 0.0010435729370339621
+    },
+    {
+      "feature": "OSSEC_alert",
+      "agt_drop": 0.008349989816314407,
+      "agt_drop_sd": 0.0010457262326518315,
+      "agt_drop_fixedgraph": 0.010219460659615986,
+      "xgb_perm_drop": -3.528660482325178e-05,
+      "xgb_gain_share": 0.008229566635677863
+    },
+    {
+      "feature": "OSSEC_alert_level",
+      "agt_drop": 0.0033986054235746557,
+      "agt_drop_sd": 0.0002129065194159892,
+      "agt_drop_fixedgraph": 0.003143787491621327,
+      "xgb_perm_drop": 0.00019394901867982503,
+      "xgb_gain_share": 0.005236461740771266
+    },
+    {
+      "feature": "Login_attempt",
+      "agt_drop": 0.02378489845347002,
+      "agt_drop_sd": 0.003100999273845837,
+      "agt_drop_fixedgraph": 0.018095877051529263,
+      "xgb_perm_drop": 0.0006775721876771668,
+      "xgb_gain_share": 0.05438240891204704
+    },
+    {
+      "feature": "Succesful_login",
+      "agt_drop": 0.0031874545098089513,
+      "agt_drop_sd": 0.0014517987191157503,
+      "agt_drop_fixedgraph": 0.0030963403008907133,
+      "xgb_perm_drop": 5.093094644955295e-05,
+      "xgb_gain_share": 0.014216675627888278
+    },
+    {
+      "feature": "File_activity",
+      "agt_drop": 0.02081280554161639,
+      "agt_drop_sd": 0.001992295791572019,
+      "agt_drop_fixedgraph": 0.0028769433438336676,
+      "xgb_perm_drop": 0.08673461932767235,
+      "xgb_gain_share": 0.00610688732690075
+    },
+    {
+      "feature": "Process_activity",
+      "agt_drop": 0.001296592587296493,
+      "agt_drop_sd": 0.002130900821425726,
+      "agt_drop_fixedgraph": 0.0012959442388463065,
+      "xgb_perm_drop": -8.696681342512669e-06,
+      "xgb_gain_share": 0.00806402095322173
+    },
+    {
+      "feature": "read_write_physical.process",
+      "agt_drop": 0.09710027847941494,
+      "agt_drop_sd": 0.002010091100026487,
+      "agt_drop_fixedgraph": 0.06095157458638312,
+      "xgb_perm_drop": 0.09200983586558749,
+      "xgb_gain_share": 0.014193380403167815
+    },
+    {
+      "feature": "is_privileged",
+      "agt_drop": -0.009012096758167646,
+      "agt_drop_sd": 0.0020682171488953707,
+      "agt_drop_fixedgraph": -0.009119071674420573,
+      "xgb_perm_drop": 1.765208003767782e-05,
+      "xgb_gain_share": 0.08949211106563112
+    },
+    {
+      "feature": "Protocol",
+      "agt_drop": -0.0003476725419290598,
+      "agt_drop_sd": 0.0017005343985737951,
+      "agt_drop_fixedgraph": -0.0008455498896093131,
+      "xgb_perm_drop": 0.008708422149238837,
+      "xgb_gain_share": 0.07105020149273904
+    },
+    {
+      "feature": "Service",
+      "agt_drop": 0.2569952238621838,
+      "agt_drop_sd": 0.014177709604350844,
+      "agt_drop_fixedgraph": 0.2301728703554646,
+      "xgb_perm_drop": 0.285520473615262,
+      "xgb_gain_share": 0.3876222566469496
+    },
+    {
+      "feature": "anomaly_alert",
+      "agt_drop": 0.05533867059552026,
+      "agt_drop_sd": 0.0004339652426966141,
+      "agt_drop_fixedgraph": 0.04420880555018917,
+      "xgb_perm_drop": 0.10239045724218891,
+      "xgb_gain_share": 0.05145968084442845
+    }
+  ],
+  "service_class_purity": 0.78575
+}

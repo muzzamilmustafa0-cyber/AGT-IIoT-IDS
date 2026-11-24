@@ -1,0 +1,23 @@
+{
+  "AGT-rehearsal": {
+    "policy": "recent",
+    "M": 2500,
+    "S": 15,
+    "eta": 0.003,
+    "pseudo_macroF1": 0.7888121940675643
+  },
+  "MLP-rehearsal": {
+    "policy": "balanced",
+    "M": 5000,
+    "S": 30,
+    "eta": 0.003,
+    "pseudo_macroF1": 0.7925219512383114
+  },
+  "XGB-sliding": {
+    "policy": "recent",
+    "M": 2500,
+    "S": 15,
+    "eta": 0.003,
+    "pseudo_macroF1": 0.7884432324929063
+  }
+}

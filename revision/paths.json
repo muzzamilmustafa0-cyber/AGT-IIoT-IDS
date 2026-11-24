@@ -1,0 +1,9 @@
+{
+  "data_root": "path/to/data",
+  "layout": {
+    "xiiotid/X-IIoTID dataset.csv": "X-IIoTID (Kaggle: munaalhawawreh/xiiotid-iiot-intrusion-dataset)",
+    "datasets/edgeiiot/Edge-IIoTset dataset/Selected dataset for ML and DL/DNN-EdgeIIoT-dataset.csv": "Edge-IIoTset (Kaggle: mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot)",
+    "datasets/wustl/wustl_iiot_2021.csv": "WUSTL-IIoT-2021 (Kaggle: annaamalaiu/wustl-iiot-2021-dataset)",
+    "datasets/edge/CICIoT2023_8class.csv": "CICIoT2023 8-class sample (code/prepare_ciciot2023.py)"
+  }
+}
